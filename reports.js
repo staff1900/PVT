@@ -1,5 +1,679 @@
 window.REPORTS = [
  {
+  "date": "2026-10-11",
+  "dataAsOf": "2026-10-09",
+  "headline": "IRGC tuyên bố (tối 9/10) đã đánh trúng NV Sunshine, VLGC 54.975 DWT của Nhật Việt (PVT), gây cháy buồng máy ở 'tuyến trái phép' phía nam Hormuz; PVTrans và NVTrans phủ nhận ngày 10/10: tàu không bị đánh, thuyền viên và hàng an toàn. IRGC 10/10 nói thêm một tàu dầu trúng thủy lôi; UAE cứu 22 thuyền viên tàu dầu cháy trong vùng Vịnh. Nga nới cấm xuất diesel (500.000 tấn) từ 10/10, Đức giữ trừng phạt; G7 xả tới 100 triệu thùng trong 4 tháng, gasoil ICE −5%. Houthi bị quy trách nhiệm vụ đánh sân bay Riyadh (12 chết); quân chính phủ Yemen đánh lấy lại Bab el-Mandeb. Bão Isaias vào bờ Florida cấp 2, tránh vùng lọc dầu. Không có phiên Baltic mới (cuối tuần)",
+  "summary": [
+   "Không có phiên Baltic mới (thứ Bảy, Chủ nhật): số mới nhất vẫn 9/10 — BDTI 7.964, BCTI 2.403, BLPG 23.192, BDI 2.917 (khớp Trading Economics), BSI 1.814, BHSI 996. Nhiên liệu tàu 10/10: VLSFO Singapore 889,5 USD/t (−2,0%), HSFO 380 Singapore 810 (cao nhất 5 năm). Brent đóng cửa 9/10 khoảng 104,7 USD.",
+   "Tàu của PVT bị nêu tên: IRGC (qua Tasnim, tối 9/10) nói đã đánh NV Sunshine (IMO 9350288, 2007, 54.975 DWT, cờ Việt Nam, Nhật Việt sở hữu) khi tàu đi tuyến phía nam Hormuz mà Iran không cho phép, gây 'cháy lớn ở buồng máy và hệ động lực'. Ngày 10/10 NVTrans và PVTrans phủ nhận sau khi liên lạc thuyền trưởng. Không có xác nhận độc lập (UKMTO, theo dõi tàu) cho lời IRGC; AIS gần nhất ghi đích Ras Laffan.",
+   "Hormuz: IRGC tuyên bố truy đuổi tàu 'vi phạm' ở toàn khu vực và đánh mọi tàu của công ty bị cho là hợp tác với Mỹ. Ngày 10/10 IRGC nói một tàu dầu trúng thủy lôi trên tuyến trái phép; UAE cứu 22 thuyền viên châu Á từ một tàu dầu cháy trong vùng Vịnh (không nêu tên). 134 tàu đang đứng chờ trong vùng Vịnh/Hormuz (straits.live, 10/10). Bloomberg: VLCC vùng Vịnh–Đông Á trên 1,4 triệu USD/ngày; Vitol: tàu con thoi qua Hormuz 'rất kém hiệu quả', không đủ tàu.",
+   "Diesel: Nga cho bán 500.000 tấn diesel ra nước ngoài từ 10/10 (cấm từ tháng 7); Đức tuyên bố giữ trừng phạt. G7 xả tới 100 triệu thùng diesel và dầu thô trong 4 tháng (khoảng 830.000 thùng/ngày), gasoil ICE −5% khi công bố. SPR Mỹ 331,2 triệu thùng, thấp nhất từ 1983; tồn kho thế giới đã giảm 507 triệu thùng từ tháng 2 (IEA).",
+   "Nga–Ukraine: Trump đòi Ukraine dừng đánh nhà máy lọc dầu Nga và thay tổng thống; Ukraine nói đã làm tê liệt hơn 51% công suất lọc dầu Nga. Đêm 9–10/10 cảng xuất xăng dầu Yug Rusi (Rostov, 3,5 triệu tấn/năm) cháy lớn. Đàm phán Miami kết thúc 10/10 chưa có kết quả; TASS: Witkoff, Kushner có thể tới Moscow trong 2 tuần.",
+   "Biển Đỏ: sân bay Riyadh bị đánh tối 10/10 (12 chết, 309 bị thương); quân chính phủ Yemen đánh quanh Mocha, Dhubab để lấy lại khu vực Bab el-Mandeb mà Houthi chiếm từ tháng 9; Houthi dọa đánh tàu cờ Pakistan; Trump nói có thể cùng Saudi đánh Houthi. Bão Isaias vào bờ gần Destin (Florida) cấp 2 tối 9/10 rồi suy yếu nhanh. Kênh Panama đi lại bình thường sau động đất 7,7."
+  ],
+  "pvt": [
+   {
+    "seg": "Dầu thô Aframax (4 tàu)",
+    "signal": "up",
+    "text": "Chưa có số Baltic mới sau tuần 41 (TD7 525.034, TD14 WS787). Yếu tố đỡ cước tăng thêm trong cuối tuần: IRGC mở rộng mục tiêu ra toàn vùng Vịnh, thêm một tàu dầu cháy (10/10), 134 tàu đứng chờ; Bloomberg ghi VLCC vùng Vịnh–Đông Á trên 1,4 triệu USD/ngày, kéo Aframax theo. Rủi ro an ninh với tàu lấy dầu cho Dung Quất ở vùng Vịnh cao hơn."
+   },
+   {
+    "seg": "Dầu SP / MR (8 tàu)",
+    "signal": "down",
+    "text": "Ba tin cùng chiều làm giảm áp lực thiếu diesel: Nga nới cấm xuất 500.000 tấn từ 10/10, G7 xả tới 100 triệu thùng trong 4 tháng (gasoil ICE −5%), bão Isaias tránh vùng lọc dầu bờ Vịnh Mỹ. Cước MR châu Á đã hạ ở tuần 41 (TC7 68.233, −6,6%). Đỡ cước còn lại: Ukraine tiếp tục đánh cảng/nhà máy dầu Nga (Rostov 9–10/10) và dòng diesel Trung Đông chưa bằng một nửa năm trước."
+   },
+   {
+    "seg": "Hóa chất (19 tàu)",
+    "signal": "na",
+    "text": "Không có số cước mới (ICIS tuần 41 dự kiến lên HSN 12/10; châu Á không có chỉ số công khai). Rủi ro an ninh: IRGC tuyên bố đánh mọi tàu của công ty bị cho là hợp tác với Mỹ, áp dụng cả với tàu hóa chất vào vùng Vịnh."
+   },
+   {
+    "seg": "LPG (22 tàu, trong đó 2 VLGC)",
+    "signal": "flat",
+    "text": "NV Sunshine bị IRGC nêu tên là đã trúng đòn (9/10); PVTrans/NVTrans phủ nhận, tàu vẫn khai thác. Dù lời IRGC sai, việc Iran gọi tên tàu của Nhật Việt và nói sẽ đánh tàu đi tuyến phía nam cho thấy 2 VLGC của PVT là mục tiêu tiềm năng khi xếp hàng ở vùng Vịnh: rủi ro thời gian chết, phí bảo hiểm, và áp lực đổi tuyến/khách hàng. Cước: BLPG 23.192 (9/10), sát đỉnh 5 năm."
+   },
+   {
+    "seg": "Hàng rời Supramax/Handysize (13 tàu)",
+    "signal": "flat",
+    "text": "Không có phiên mới: BSI 1.814, BHSI 996 (9/10). Tuần tới Trung Quốc công bố thương mại tháng 9 (ING dự báo nhập khẩu +21,7% theo giá trị); số nhập quặng, than sẽ quyết định cầu hàng rời sau Tuần lễ Vàng. FFA Supramax 2027 16.164, thấp hơn mức hiện tại khoảng 29%."
+   }
+  ],
+  "headlines": [
+   {
+    "when": "09–10/10",
+    "tag": "Hormuz – tàu PVT bị nêu tên",
+    "dir": "mixed",
+    "segs": [
+     "VLGC"
+    ],
+    "title": "IRGC tuyên bố đánh trúng VLGC NV Sunshine (2007, 54.975 DWT, cờ Việt Nam, Nhật Việt/PVT) khi tàu đi 'tuyến trái phép' phía nam Hormuz tối 9/10, gây cháy buồng máy; ngày 10/10 NVTrans và PVTrans phủ nhận: tàu không bị tấn công, không cháy, thuyền viên và hàng an toàn",
+    "impact": "Không có xác nhận độc lập cho lời IRGC: UKMTO và trình theo dõi tàu gắn vụ ngoài khơi UAE ngày 9/10 với tàu dầu GEM NO.2; Euronews đưa tên 'MV Sun Shine' của 'Natwit' và gọi là tàu dầu. AIS gần nhất (MagicPort) ghi tàu đang chạy, đích Ras Laffan (Qatar). Cổ phiếu PVT giảm 350 đồng ngày 9/10 (TNCK). Với PVT: dù tàu an toàn, Iran đã gọi tên tàu Nhật Việt và tuyên bố đánh tàu đi tuyến phía nam ở bất kỳ đâu trong khu vực; 2 VLGC chạy Trung Đông có rủi ro bị chậm chuyến, tăng phí bảo hiểm hoặc phải đổi khu vực xếp hàng.",
+    "src": [
+     {
+      "t": "Yeni Şafak / Anadolu (lời IRGC qua Tasnim), 09/10",
+      "u": "https://en.yenisafak.com/world/iran-says-lpg-carrier-hit-in-hormuz-illegal-route-3724320"
+     },
+     {
+      "t": "The New Arab, 09/10",
+      "u": "https://www.newarab.com/news/irgc-say-struck-tanker-transiting-hormuz-illegal-route"
+     },
+     {
+      "t": "Tin nhanh chứng khoán (PVTrans phủ nhận), 10/10",
+      "u": "https://www.tinnhanhchungkhoan.vn/pvtrans-pvt-phu-nhan-tau-nv-sunshine-bi-tan-cong-tai-khu-vuc-eo-bien-hormuz-post399190.html"
+     },
+     {
+      "t": "Tiền Phong (thông cáo NVTrans), 10/10",
+      "u": "https://tienphong.vn/cong-ty-nhat-viet-thong-tin-ve-tau-nv-sunshine-post1884126.tpo"
+     },
+     {
+      "t": "MagicPort (hồ sơ tàu, AIS), 11/10",
+      "u": "https://magicport.ai/vessels/gas-carrier/nv-sunshine-mmsi-574005710"
+     }
+    ]
+   },
+   {
+    "when": "09–10/10",
+    "tag": "Hormuz – IRGC mở rộng mục tiêu",
+    "dir": "up",
+    "segs": [
+     "VLCC",
+     "Aframax",
+     "VLGC",
+     "Hóa chất"
+    ],
+    "title": "IRGC tuyên bố truy đuổi tàu đi tuyến không được phép ở bất kỳ đâu trong khu vực và đánh mọi tàu của công ty bị cho là hợp tác với Mỹ; ngày 10/10 IRGC nói một tàu dầu trúng thủy lôi trên tuyến trái phép, UAE cứu 22 thuyền viên châu Á từ một tàu dầu cháy trong vùng Vịnh; 134 tàu đứng chờ trong vùng Vịnh/Hormuz",
+    "impact": "CENTCOM (9/10) nói đã rà thủy lôi luồng chính và mở cho tàu không vi phạm trừng phạt Mỹ; Iran giữ 'bảy điều kiện' trước khi mở eo. Bloomberg: VLCC vùng Vịnh–Đông Á trên 1,4 triệu USD/ngày (+40% tuần đầu tháng 10); Vitol: tàu con thoi qua Hormuz rất kém hiệu quả, không đủ tàu. Số luồng hàng vẫn vênh: Fearnleys nói dầu thô Trung Đông có vài ngày cuối tháng 9 vượt mức trước chiến tranh, Kpler nói tuần đến 7/10 giảm khoảng 1/3. Với PVT: cước tàu dầu tiếp tục được đỡ; tàu PVT vào vùng Vịnh (VLGC, hóa chất, Aframax lấy dầu cho Dung Quất) chịu rủi ro trực tiếp.",
+    "src": [
+     {
+      "t": "Euronews, 09/10",
+      "u": "https://www.euronews.com/2026/10/09/irans-irgc-strikes-tanker-and-threatens-to-target-vessels-beyond-hormuz"
+     },
+     {
+      "t": "gCaptain (Reuters), 10/10",
+      "u": "https://gcaptain.com/uae-rescues-22-crew-members-after-oil-tanker-catches-fire-in-gulf/"
+     },
+     {
+      "t": "straits.live (bản tin Hormuz), 10/10",
+      "u": "https://straits.live/briefs/2026-10-10"
+     },
+     {
+      "t": "OilPrice.com (Bloomberg, Fearnleys, Vitol), 10/10",
+      "u": "https://oilprice.com/Energy/Energy-General/Tanker-Rates-Soar-to-Record-as-Oil-Crisis-Becomes-Shipping-Crisis.html"
+     }
+    ]
+   },
+   {
+    "when": "10/10",
+    "tag": "Dầu sản phẩm – Nga nới xuất diesel",
+    "dir": "down",
+    "segs": [
+     "MR",
+     "LR1",
+     "LR2"
+    ],
+    "title": "Nga nới một phần lệnh cấm xuất diesel từ 10/10, cho bán 500.000 tấn ra nước ngoài (cấm từ tháng 7 sau các đòn đánh nhà máy lọc dầu); Đức tuyên bố giữ trừng phạt Nga; Trump đòi Ukraine dừng đánh nhà máy lọc dầu Nga",
+    "impact": "Kpler: diesel Nga có thể quay lại Brazil, Thổ Nhĩ Kỳ; dòng diesel Trung Đông hiện chưa bằng một nửa năm trước; châu Âu nhập diesel ngoài khu vực khoảng 24 triệu thùng tháng 9. Nếu Nga xuất lại đều, MR/LR1 tuân thủ có thêm hàng hợp lệ nhưng tuyến ngắn hơn (Biển Đen/Baltic đi Địa Trung Hải, Nam Mỹ) và áp lực thiếu diesel giảm. Với PVT: nghiêng về giảm cho cước MR, cộng với việc cước MR châu Á đã hạ ở tuần 41.",
+    "src": [
+     {
+      "t": "Kyiv Independent, 10/10",
+      "u": "https://kyivindependent.com/russia-partially-lifts-ban-on-diesel-exports-after-trump-putin-deal/"
+     },
+     {
+      "t": "The Moscow Times, 10/10",
+      "u": "https://www.themoscowtimes.com/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-diesel-announcement-a93940"
+     },
+     {
+      "t": "Hellenic Shipping News / Kpler, 10/10",
+      "u": "https://www.hellenicshippingnews.com/strategic-stock-release-resets-diesel/"
+     },
+     {
+      "t": "Kyiv Independent, 10/10",
+      "u": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/"
+     }
+    ]
+   },
+   {
+    "when": "09–10/10",
+    "tag": "Dầu – kho dự trữ",
+    "dir": "mixed",
+    "segs": [
+     "MR",
+     "LR2",
+     "Aframax"
+    ],
+    "title": "G7 xả tới 100 triệu thùng diesel và dầu thô trong 4 tháng (khoảng 830.000 thùng/ngày, phần lớn diesel trong 20 ngày đầu); gasoil ICE −5%, dầu sưởi −3% khi công bố; SPR Mỹ còn 331,2 triệu thùng, thấp nhất từ 1983; tồn kho thế giới đã giảm 507 triệu thùng từ tháng 2 (IEA)",
+    "impact": "IEA: kho khẩn cấp của các nước thành viên còn khoảng 1,1 tỷ thùng (trên 200 triệu thùng diesel); Aramco: thế giới đã rút hơn 1 tỷ thùng từ đầu chiến tranh, bù lại kho mất tới 2 năm và chỉ sau khi Hormuz mở. Ngắn hạn xả kho làm giảm nhu cầu nhập diesel đường biển; trung hạn, khi Hormuz mở lại, nhu cầu bù kho là cầu vận tải bổ sung. Với PVT: tiêu cực ngắn hạn cho MR, tích cực cho cầu tàu dầu thô/SP sau khủng hoảng.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News / Euronews, 10/10",
+      "u": "https://www.hellenicshippingnews.com/g7s-100-million-barrel-pledge-tied-to-unfinished-march-emergency-oil-release/"
+     },
+     {
+      "t": "Hellenic Shipping News / Kpler, 10/10",
+      "u": "https://www.hellenicshippingnews.com/strategic-stock-release-resets-diesel/"
+     },
+     {
+      "t": "OilPrice.com, 10/10",
+      "u": "https://oilprice.com/Energy/Crude-Oil/Emergency-Oil-Releases-Risk-Draining-the-Worlds-Last-Supply-Cushion.html"
+     }
+    ]
+   },
+   {
+    "when": "09–10/10",
+    "tag": "Nga–Ukraine – cảng dầu, đàm phán",
+    "dir": "mixed",
+    "segs": [
+     "MR",
+     "Aframax",
+     "Supramax",
+     "Handysize"
+    ],
+    "title": "Cảng xuất xăng dầu Yug Rusi ở Rostov-on-Don (3,5 triệu tấn/năm, nhận hàng nhà máy Novoshakhtinsk) cháy lớn đêm 9–10/10 sau nghi vấn UAV; Ukraine nói đã làm tê liệt hơn 51% công suất lọc dầu Nga; đàm phán Miami kết thúc 10/10 chưa có kết quả, Nga đánh Zaporizhzhia làm 20 người chết",
+    "impact": "Zelensky sẵn sàng dừng đánh hạ tầng năng lượng Nga nếu Nga cũng dừng; Nga chưa đồng ý. TASS: Witkoff, Kushner có thể tới Moscow trong 2 tuần. Bộ Quốc phòng Nga nói UAV đánh một tàu hàng chở hàng quân sự tới Odesa. Với PVT: đòn đánh cảng/nhà máy dầu Nga tiếp tục cắt nguồn xăng dầu (đỡ cước MR), nhưng một thỏa thuận đình chiến năng lượng sẽ đảo chiều; hành lang ngũ cốc Biển Đen cho tàu hàng rời nhỏ vẫn bế tắc.",
+    "src": [
+     {
+      "t": "Kyiv Independent, 10/10",
+      "u": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/"
+     },
+     {
+      "t": "Kyiv Independent, 10/10",
+      "u": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/"
+     },
+     {
+      "t": "The Moscow Times, 10/10",
+      "u": "https://www.themoscowtimes.com/2026/10/10/russian-attack-on-ukrainian-city-kills-20-a-day-after-trump-eases-diesel-sanctions-on-moscow-a93941"
+     },
+     {
+      "t": "Al Jazeera, 10/10",
+      "u": "https://www.aljazeera.com/news/2026/10/10/trump-says-ukraine-needs-a-new-president-who-will-agree-to-end-the-war"
+     }
+    ]
+   },
+   {
+    "when": "10/10",
+    "tag": "Biển Đỏ – Bab el-Mandeb",
+    "dir": "up",
+    "segs": [
+     "LR2",
+     "Aframax",
+     "MR"
+    ],
+    "title": "Sân bay King Khalid (Riyadh) bị đánh tối 10/10, 12 người chết, 309 bị thương (Houthi chưa nhận); quân chính phủ Yemen do Saudi hậu thuẫn giao tranh quanh Mocha, Dhubab để lấy lại khu vực Bab el-Mandeb mà Houthi chiếm từ tháng 9; Houthi dọa đánh tàu cờ Pakistan ở Biển Đỏ và Biển Ả Rập",
+    "impact": "Al Jazeera: cả hai bên đều nói kiểm soát luồng tàu qua Bab el-Mandeb (xác nhận tin chưa kiểm chứng ở bản 10/10). Trump nói có thể cùng Saudi đánh Houthi; Ý kêu gọi châu Âu tăng tàu cho nhiệm vụ Biển Đỏ. Giao tranh ngay bờ eo làm tuyến Yanbu–châu Âu qua Biển Đỏ rủi ro hơn, đẩy thêm hàng sang Mũi Hảo Vọng. Với PVT: giữ tuyến dài, đỡ cước LR2/Aframax/MR; PVT Poseidon chạy châu Âu hưởng gián tiếp.",
+    "src": [
+     {
+      "t": "Al Jazeera, 10/10",
+      "u": "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+     },
+     {
+      "t": "Al Jazeera, 10/10",
+      "u": "https://www.aljazeera.com/news/2026/10/10/yemeni-governments-military-says-its-forces-advancing-against-houthis"
+     },
+     {
+      "t": "The National (trực tiếp), 10/10",
+      "u": "https://www.thenationalnews.com/news/mena/2026/10/10/live-iran-war-houthis-strait-of-hormuz-irgc/"
+     }
+    ]
+   },
+   {
+    "when": "09–10/10",
+    "tag": "Bão – Vịnh Mexico",
+    "dir": "down",
+    "segs": [
+     "MR",
+     "VLGC"
+    ],
+    "title": "Bão Isaias vào bờ gần Destin (Florida) lúc 21:30 ET ngày 9/10, đã hạ xuống cấp 2 (105 dặm/giờ) rồi suy yếu nhanh thành xoáy thuận sau nhiệt đới; vùng lọc dầu Louisiana–Mississippi tránh được tâm bão",
+    "impact": "Platts (10/10): phần lớn nhà máy lọc dầu bờ Vịnh tránh được đòn trực tiếp, chủ yếu ảnh hưởng xuất khẩu vài ngày. Khoảng 420.000 khách hàng Florida mất điện; chưa có tin giàn khoan quay lại sản xuất (1,46 triệu thùng/ngày đã dừng). Rủi ro gián đoạn lọc dầu, kéo cước MR, VLGC lên, nhỏ hơn lo ngại trước đó. Với PVT: ảnh hưởng gián tiếp, nghiêng về giảm.",
+    "src": [
+     {
+      "t": "Fox Weather, 09/10",
+      "u": "https://www.foxweather.com/weather-news/isaias-first-atlantic-hurricane-threatening-gulf-coast"
+     },
+     {
+      "t": "Hellenic Shipping News / Platts, 10/10",
+      "u": "https://www.hellenicshippingnews.com/most-usgc-refineries-set-to-avoid-direct-hit-from-hurricane-exports-affected/"
+     }
+    ]
+   }
+  ],
+  "news": [
+   {
+    "tag": "Rủi ro đội tàu",
+    "title": "Iran chuyển từ cảnh báo chung sang nêu tên tàu: rủi ro cụ thể cho 2 VLGC của PVT",
+    "text": "Trong 3 ngày 7–9/10, IRGC tuyên bố đánh ba tàu bên trong hoặc gần vùng Vịnh (Acers ở bắc Qatar, GEM NO.2 ngoài khơi UAE theo UKMTO, và NV Sunshine theo lời IRGC), kèm tuyên bố trừng phạt mọi công ty bị cho là hợp tác với Mỹ. Trường hợp NV Sunshine: IRGC nêu tên, chủ tàu Việt Nam phủ nhận, không có bên thứ ba xác nhận. Hồ sơ PVT ghi 2 VLGC từng bị cảng vùng Vịnh từ chối vì nghi STS với hàng Iran; nay tàu của Nhật Việt bị Iran nêu tên từ phía ngược lại. Bảo hiểm rủi ro chiến tranh thường do khách thuê trả, nhưng thời gian chết và rủi ro thân tàu thì chủ tàu chịu.",
+    "impact": "Dù vụ tấn công không có thật, việc bị nêu tên có thể khiến người thuê, bảo hiểm và cảng thận trọng hơn với tàu Nhật Việt ở vùng Vịnh. Cần theo dõi: PVT có công bố thêm về hành trình của NV Sunshine (đích AIS Ras Laffan), có chuyển 2 VLGC sang tuyến Mỹ–châu Á hay không.",
+    "src": [
+     {
+      "t": "Euronews, 09/10",
+      "u": "https://www.euronews.com/2026/10/09/irans-irgc-strikes-tanker-and-threatens-to-target-vessels-beyond-hormuz"
+     },
+     {
+      "t": "Tin nhanh chứng khoán (PVTrans phủ nhận), 10/10",
+      "u": "https://www.tinnhanhchungkhoan.vn/pvtrans-pvt-phu-nhan-tau-nv-sunshine-bi-tan-cong-tai-khu-vuc-eo-bien-hormuz-post399190.html"
+     },
+     {
+      "t": "MagicPort (hồ sơ tàu, AIS), 11/10",
+      "u": "https://magicport.ai/vessels/gas-carrier/nv-sunshine-mmsi-574005710"
+     }
+    ]
+   },
+   {
+    "tag": "Tồn kho dầu",
+    "title": "Kho dầu thế giới cạn dần: nhu cầu bù kho là cầu vận tải sau khủng hoảng",
+    "text": "IEA: tồn kho thế giới giảm 95 triệu thùng trong tháng 8, tổng 507 triệu thùng từ tháng 2 (2,8 triệu thùng/ngày). Aramco: hơn 1 tỷ thùng đã bị rút từ đầu chiến tranh, phần lớn từ kho thương mại. SPR Mỹ 331,2 triệu thùng đầu tháng 10, thấp nhất từ 1983 (mức vận hành tối thiểu ước 250–300 triệu). G7 xả thêm tới 100 triệu thùng trong 4 tháng; 9 nước Đông Nam Á ra tuyên bố về dự trữ dầu quốc gia và khu vực.",
+    "impact": "Hai chiều cho tàu dầu: đang khủng hoảng thì xả kho thay cho hàng nhập (giảm cầu tàu, nhất là diesel); khi Hormuz mở lại, việc bù hơn 1 tỷ thùng trong khoảng 2 năm tạo thêm cầu vận tải, có thể đỡ cước trong giai đoạn PVT tái ký hợp đồng 2027–2028. Rủi ro: nếu kho cạn trước khi Hormuz mở, giá dầu tăng mạnh có thể bóp cầu.",
+    "src": [
+     {
+      "t": "OilPrice.com, 10/10",
+      "u": "https://oilprice.com/Energy/Crude-Oil/Emergency-Oil-Releases-Risk-Draining-the-Worlds-Last-Supply-Cushion.html"
+     },
+     {
+      "t": "Hellenic Shipping News / Euronews, 10/10",
+      "u": "https://www.hellenicshippingnews.com/g7s-100-million-barrel-pledge-tied-to-unfinished-march-emergency-oil-release/"
+     }
+    ]
+   }
+  ],
+  "watch": [
+   "NV Sunshine: PVT/NVTrans có công bố thêm về vị trí, hành trình (AIS ghi đích Ras Laffan); UKMTO có ghi nhận sự cố nào trùng thời điểm IRGC nêu không.",
+   "Tàu dầu cháy trong vùng Vịnh ngày 10/10 (UAE cứu 22 thuyền viên) và lời IRGC về tàu trúng thủy lôi: tên tàu, có phải cùng một vụ không.",
+   "Bab el-Mandeb: giao tranh quanh Mocha, Dhubab; Mỹ có tham gia đánh Houthi không; Houthi có đánh tàu thương mại (cờ Pakistan) không.",
+   "Nga xuất diesel: 500.000 tấn đầu tiên đi đâu (Mỹ, Brazil, Thổ Nhĩ Kỳ), đi bằng tàu tuân thủ hay đội bóng tối; lệnh cấm còn lại hết hạn 31/10.",
+   "Witkoff, Kushner có thể tới Moscow trong 2 tuần (TASS); họp ba bên dự kiến cuối tháng 10 có đình chiến năng lượng, hành lang Biển Đen.",
+   "Isaias: giàn khoan Vịnh Mexico quay lại sản xuất (1,46 triệu thùng/ngày đã dừng), cảng Mobile mở lại.",
+   "Báo cáo tuần mới: Xclusiv và ICIS trên HSN (12/10), Intermodal, Banchero (13/10), Fearnleys (14/10); BLPG1/3 tuần 41 chưa tìm được nơi đăng lại.",
+   "PVP họp 23/10 về Aframax số 3; BCTC quý 3 PVT trước 30/10."
+  ],
+  "gaps": [
+   "Lần chạy 11/10 (Chủ nhật, 07:01 giờ VN): 39 truy vấn WebSearch; 33 trang mở thành công có nội dung (không tính feed, trang mục), 31 trang đăng trong 72 giờ; 6 trang lỗi (403/503). Tên miền lớn nhất: hellenicshippingnews.com 9/33 = 27%. build.py: errors rỗng, phiên Baltic mới nhất vẫn 9/10 (chỉ nhiên liệu tàu có số 10/10). BDI 2.917 khớp Trading Economics (bài tóm tắt của TE vẫn ghi 3.002: không dùng).",
+   "Nguồn chưa phát hành số mới (cuối tuần): Baltic (phiên tới 12/10); Hellenic Shipping News không đăng bài mới sau 9/10 21:00; ICIS, Xclusiv (12/10); Intermodal, Banchero (13/10); Fearnleys (14/10); số thương mại tháng 9 Trung Quốc (tuần tới). Không có số routes, period, snp, lpg, supply, peers mới nên các mục đó giữ số bản 10/10.",
+   "Không truy cập được: bài lẻ Splash247 (403, dùng nội dung trong feed cho tin kênh Panama), tasnimnews.ir và tehrantimes.com (503, dùng Yeni Şafak/Anadolu), nongnghiepmoitruong.vn, newsnationnow.com, mypanhandle.com (403); BLPG1/3 tuần 41 và The Edge bản tuần 41 vẫn chưa tìm được.",
+   "Chưa xác minh: lời IRGC về NV Sunshine (chỉ có tuyên bố IRGC, chủ tàu phủ nhận, không có UKMTO); tên và nguyên nhân tàu dầu cháy 10/10; lượng dầu qua Hormuz (Kpler −1/3 so với Fearnleys có ngày vượt mức trước chiến tranh); phí bảo hiểm chiến tranh tháng 10 (không có báo giá mới); cước tàu hóa chất, LPG nhỏ châu Á (không có chỉ số công khai); cướp biển châu Á, Somalia, Vịnh Guinea (không có vụ mới được đưa tin); giá quặng và tồn cảng Trung Quốc sau Tuần lễ Vàng."
+  ],
+  "scoreManual": [
+   {
+    "key": "warrisk",
+    "name": "Phí bảo hiểm rủi ro chiến tranh qua Hormuz",
+    "value": "Chưa có báo giá tháng 10; mới nhất 3–10% giá trị thân tàu (7–8/2026), 7,5–12,5% (9/2026). IRGC (9/10): đánh mọi tàu của công ty bị cho là hợp tác với Mỹ",
+    "asof": "2026-10-10",
+    "status": "green",
+    "rule": "Xanh: vẫn cao (gián đoạn kéo dài) · Đỏ: giảm về dưới 1%",
+    "why": "Rủi ro tiếp tục tăng: thêm một tàu dầu cháy trong vùng Vịnh (10/10), IRGC nêu tên tàu cụ thể (NV Sunshine) và đe dọa theo công ty chứ không chỉ theo tàu. Không có cơ sở để phí giảm.",
+    "src": [
+     {
+      "t": "Euronews, 09/10",
+      "u": "https://www.euronews.com/2026/10/09/irans-irgc-strikes-tanker-and-threatens-to-target-vessels-beyond-hormuz"
+     },
+     {
+      "t": "gCaptain (Reuters), 10/10",
+      "u": "https://gcaptain.com/uae-rescues-22-crew-members-after-oil-tanker-catches-fire-in-gulf/"
+     }
+    ]
+   },
+   {
+    "key": "talks",
+    "name": "Đàm phán Mỹ–Iran",
+    "value": "Bế tắc về trình tự: Iran đòi 'bảy điều kiện' trước khi mở eo (9/10); dự thảo theo FT (tự do đi lại, gỡ phong tỏa, IAEA trở lại) chưa được chấp nhận; Trump không đánh Iran trước 3/11",
+    "asof": "2026-10-10",
+    "status": "green",
+    "rule": "Xanh: bế tắc · Vàng: có lộ trình · Đỏ: thỏa thuận mở Hormuz",
+    "why": "Không có cuộc họp mới; IRGC leo thang trên biển. Giá dầu giảm nhẹ ngày 10/10 sau phát biểu của Trump về đàm phán nhưng chưa có lịch cụ thể.",
+    "src": [
+     {
+      "t": "Euronews, 09/10",
+      "u": "https://www.euronews.com/2026/10/09/irans-irgc-strikes-tanker-and-threatens-to-target-vessels-beyond-hormuz"
+     },
+     {
+      "t": "straits.live (bản tin Hormuz), 10/10",
+      "u": "https://straits.live/briefs/2026-10-10"
+     },
+     {
+      "t": "Hellenic Shipping News / Vietnam.vn, 09/10",
+      "u": "https://www.hellenicshippingnews.com/us-iran-gunboat-diplomacy-and-the-challenge-of-reopening-the-hormuz-corridor/"
+     }
+    ]
+   },
+   {
+    "key": "gulfflows",
+    "name": "Xuất khẩu dầu vùng Vịnh so với trước chiến tranh",
+    "value": "Kpler: dưới 10 triệu thùng/ngày tuần đến 7/10 (~−1/3 so với tháng 9); FT: tháng 9 khoảng 15,5 (>80% trước chiến tranh); Fearnleys: vài ngày cuối tháng 9 vượt mức trước chiến tranh; 134 tàu đứng chờ (10/10)",
+    "asof": "2026-10-10",
+    "status": "yellow",
+    "rule": "Xanh <60% · Vàng 60–90% · Đỏ >90% kèm lượt tàu qua Hormuz tăng",
+    "why": "Số liệu vẫn mâu thuẫn giữa Kpler và Fearnleys/FT; tấn công tăng nhưng tàu con thoi và STS vẫn chạy. Giữ vàng chờ số tuần đến 14/10.",
+    "src": [
+     {
+      "t": "OilPrice.com (Fearnleys), 10/10",
+      "u": "https://oilprice.com/Energy/Energy-General/Tanker-Rates-Soar-to-Record-as-Oil-Crisis-Becomes-Shipping-Crisis.html"
+     },
+     {
+      "t": "straits.live (bản tin Hormuz), 10/10",
+      "u": "https://straits.live/briefs/2026-10-10"
+     },
+     {
+      "t": "Hellenic Shipping News / Vietnam.vn, 09/10",
+      "u": "https://www.hellenicshippingnews.com/us-iran-gunboat-diplomacy-and-the-challenge-of-reopening-the-hormuz-corridor/"
+     }
+    ]
+   },
+   {
+    "key": "orderbook",
+    "name": "Orderbook tàu dầu / đội tàu (DWT)",
+    "value": "Không có số mới cuối tuần. Toàn ngành 23% theo CGT (Clarksons 7/10); VLCC 37–38%; MR2 chưa có tỷ lệ mới (14,4% tháng 2)",
+    "asof": "2026-10-09",
+    "status": "red",
+    "rule": "Xanh <10% · Vàng 10–20% · Đỏ >20%",
+    "why": "Giữ đánh giá bản 10/10; báo cáo đóng mới tuần 42 ra từ 12/10.",
+    "src": [
+     {
+      "t": "Advanced Shipping & Trading tuần 41, 09/10",
+      "u": "https://www.hellenicshippingnews.com/advanced-shipping-trading-weekly-shipping-market-report-week-41-2026/"
+     }
+    ]
+   },
+   {
+    "key": "drysupply",
+    "name": "Cung – cầu hàng rời 2027",
+    "value": "Không có số mới cuối tuần. Orderbook hàng rời 15% (Xclusiv); BDI −7,3% tuần 41; FFA Supramax 2027 16.164",
+    "asof": "2026-10-09",
+    "status": "red",
+    "rule": "Xanh: cầu > cung · Vàng: cân bằng · Đỏ: cung > cầu",
+    "why": "Giữ đánh giá bản 10/10; số nhập quặng, than tháng 9 của Trung Quốc (tuần tới) là dữ liệu cầu kế tiếp.",
+    "src": [
+     {
+      "t": "Baltic Exchange qua build.py (yieldchaser/Shipping), 09/10",
+      "u": "https://github.com/yieldchaser/Shipping"
+     }
+    ]
+   },
+   {
+    "key": "peers",
+    "name": "Ngày tàu đã ký trước của doanh nghiệp cùng ngành",
+    "value": "Không có số mới cuối tuần. SFL bán 3 Suezmax + 4 LR2 cho Trafigura; Stolt 3Q26 TCE 24.121 $/ngày, dự báo Q4 thấp hơn Q3",
+    "asof": "2026-10-09",
+    "status": "green",
+    "rule": "Xanh: giá ký trước > TB 5 năm · Đỏ: thấp hơn",
+    "why": "Mùa kết quả quý 3 bắt đầu từ 22/10.",
+    "src": [
+     {
+      "t": "Clarksons Hellas SnP Weekly, 09/10",
+      "u": "https://www.hellenicshippingnews.com/clarksons-hellas-snp-weekly-13/"
+     }
+    ]
+   },
+   {
+    "key": "dark",
+    "name": "Đội tàu bóng tối / tàu dầu toàn cầu",
+    "value": "~12% (6/2026); Hà Lan đề xuất luật giữ tàu treo cờ giả trong EEZ (9/10); Nga nới cấm xuất diesel 500.000 tấn (10/10) sau GL 135 của Mỹ",
+    "asof": "2026-10-10",
+    "status": "green",
+    "rule": "Xanh: ổn định hoặc tăng · Đỏ: giảm nhanh do gỡ trừng phạt",
+    "why": "Châu Âu siết thêm (Hà Lan, Đức giữ trừng phạt) trong khi Mỹ nới riêng cho diesel. Nếu hàng diesel Nga đi bằng tàu tuân thủ, đội bóng tối mất bớt hàng; chưa có số liệu.",
+    "src": [
+     {
+      "t": "gCaptain (Bloomberg), 10/10",
+      "u": "https://gcaptain.com/dutch-propose-law-to-crack-down-on-russian-shadow-fleet/"
+     },
+     {
+      "t": "Kyiv Independent, 10/10",
+      "u": "https://kyivindependent.com/russia-partially-lifts-ban-on-diesel-exports-after-trump-putin-deal/"
+     }
+    ]
+   }
+  ],
+  "calendar": [
+   {
+    "date": "2026-10-02",
+    "end": "2026-10-22",
+    "event": "G7 xả diesel dự trữ đợt đầu (20 ngày)",
+    "why": "Cam kết tổng tới 100 triệu thùng diesel và dầu thô trong 4 tháng."
+   },
+   {
+    "date": "2026-10-09",
+    "end": "2026-12-07",
+    "event": "Sinopec Shanghai bảo dưỡng CDU 320.000 thùng/ngày",
+    "why": "Giảm nguồn xăng dầu Trung Quốc có thể xuất trong quý 4."
+   },
+   {
+    "date": "2026-10-12",
+    "event": "Baltic phiên đầu tuần 42; Xclusiv tuần 42; ICIS trên HSN; EU phê chuẩn chính thức gói trừng phạt 22",
+    "why": "Phiên Baltic đầu tiên sau tin NV Sunshine và tàu cháy trong vùng Vịnh; giá tàu cũ; cước tàu hóa chất."
+   },
+   {
+    "date": "2026-10-13",
+    "tentative": true,
+    "event": "Trung Quốc công bố thương mại tháng 9 (dầu thô, quặng, than, LPG); Intermodal, Banchero (định hạn)",
+    "why": "ING dự báo nhập khẩu +21,7% theo giá trị; dầu thô 9 tháng −20,7% (Banchero)."
+   },
+   {
+    "date": "2026-10-14",
+    "event": "Fearnleys Weekly; OPEC MOMR tháng 10 (dự kiến)",
+    "why": "Số VLGC, Aframax giữa tuần; đối chiếu số luồng dầu Trung Đông của Fearnleys với Kpler."
+   },
+   {
+    "date": "2026-10-14",
+    "end": "2026-10-16",
+    "tentative": true,
+    "event": "Hội đồng điều hành IEA họp; EIA tồn kho (15/10)",
+    "why": "SPR Mỹ 331,2 triệu thùng, thấp nhất từ 1983; tồn distillate Mỹ có thể dưới 100 triệu thùng."
+   },
+   {
+    "date": "2026-10-15",
+    "event": "Kênh Panama tăng lên 33 lượt tàu/ngày",
+    "why": "Kênh không bị ảnh hưởng bởi động đất 7,7 ngày 9/10 (Splash)."
+   },
+   {
+    "date": "2026-10-16",
+    "event": "Baltic Exchange tổng kết tuần 42",
+    "why": "Xem TC7 MR châu Á tiếp tục giảm hay hồi; Aframax có giữ trên 300.000."
+   },
+   {
+    "date": "2026-10-17",
+    "event": "Premier Alliance bắt đầu đưa tàu container qua Suez trở lại",
+    "why": "Đặt cạnh giao tranh ở Bab el-Mandeb (Mocha, Dhubab)."
+   },
+   {
+    "date": "2026-10-18",
+    "event": "Luật trừng phạt Nga–Iran của Mỹ có hiệu lực chính",
+    "why": "Song song với GL 135 nới cho diesel Nga."
+   },
+   {
+    "date": "2026-10-20",
+    "end": "2026-10-30",
+    "tentative": true,
+    "event": "PVT công bố BCTC quý 3/2026",
+    "why": "Kiểm tra biên gộp theo phân khúc, nhất là hóa chất, và thông tin về hoạt động 2 VLGC."
+   },
+   {
+    "date": "2026-10-22",
+    "end": "2026-11-10",
+    "tentative": true,
+    "event": "Kết quả quý 3 của doanh nghiệp cùng ngành (Scorpio, Hafnia, Frontline, Odfjell, BW LPG, Star Bulk)",
+    "why": "Tỷ lệ ngày tàu đã ký trước cho quý 4 kèm giá. NORDEN 29/10, Shell 29/10."
+   },
+   {
+    "date": "2026-10-23",
+    "event": "PVP họp ĐHĐCĐ bất thường: dự án tàu Aframax số 3",
+    "why": "Aframax 10 tuổi 72 triệu, 15 tuổi 69,5 triệu USD (Advanced tuần 41)."
+   },
+   {
+    "date": "2026-10-24",
+    "tentative": true,
+    "event": "Witkoff, Kushner có thể tới Moscow (TASS: trong 2 tuần từ 10/10); họp ba bên Mỹ–Ukraine–Nga cuối tháng 10",
+    "why": "Đình chiến năng lượng và hành lang Biển Đen trong chương trình."
+   },
+   {
+    "date": "2026-10-31",
+    "event": "Hết hạn lệnh cấm xuất diesel của Nga",
+    "why": "Nga đã nới trước 500.000 tấn từ 10/10."
+   },
+   {
+    "date": "2026-11-01",
+    "event": "OPEC+ (7 nước cốt lõi) họp về sản lượng tháng 12; hết hạn chuyển tiếp trừng phạt tàu của Nhật",
+    "why": "Tháng 10 và 11 đã tạm dừng tăng."
+   },
+   {
+    "date": "2026-11-03",
+    "event": "Bầu cử giữa kỳ Mỹ",
+    "why": "Trump: không đánh Iran trước bầu cử."
+   },
+   {
+    "date": "2026-11-10",
+    "event": "Phí cảng USTR với tàu liên quan Trung Quốc hết tạm dừng (23:59 ngày 9/11 giờ ET)",
+    "why": "Chưa có thông báo gia hạn."
+   },
+   {
+    "date": "2026-11-12",
+    "event": "NOAA cập nhật ENSO",
+    "why": "Bản 8/10: >83% El Niño mạnh–rất mạnh đến quý 1/2027."
+   },
+   {
+    "date": "2026-11-17",
+    "end": "2026-11-24",
+    "event": "Kênh Panama đấu slot dài hạn mùa khô 2027 (Neopanamax 17/11, Panamax 24/11)",
+    "why": "Chỉ báo kỳ vọng hạn chế mùa khô do El Niño."
+   },
+   {
+    "date": "2026-11-23",
+    "end": "2026-11-27",
+    "event": "Họp liên kỳ IMO về khung Net-Zero (ISWG-GHG 23)",
+    "why": "Chuẩn bị cho phiên quyết định ngày 4/12."
+   },
+   {
+    "date": "2026-11-30",
+    "end": "2026-12-03",
+    "event": "IMO MEPC 85",
+    "why": "Quyết định có nối lại phiên bất thường ngày 4/12."
+   },
+   {
+    "date": "2026-12-04",
+    "event": "IMO MEPC phiên bất thường 2: quyết định khung Net-Zero",
+    "why": "Nếu thông qua, tàu già tốn kém hơn; đội tàu PVT bình quân khoảng 17 tuổi."
+   }
+  ],
+  "flows": [
+   {
+    "topic": "Kho dầu (IEA, Aramco, DOE)",
+    "value": "Tồn kho thế giới −507 triệu thùng từ tháng 2 (2,8 triệu thùng/ngày); SPR Mỹ 331,2 triệu thùng đầu 10, thấp nhất từ 1983; G7 xả tới 100 triệu thùng/4 tháng.",
+    "note": "Aramco: bù kho mất tới 2 năm, chỉ sau khi Hormuz mở.",
+    "src": [
+     {
+      "t": "OilPrice.com, 10/10",
+      "u": "https://oilprice.com/Energy/Crude-Oil/Emergency-Oil-Releases-Risk-Draining-the-Worlds-Last-Supply-Cushion.html"
+     }
+    ]
+   },
+   {
+    "topic": "Diesel châu Âu, Trung Đông (Kpler)",
+    "value": "Châu Âu nhập diesel ngoài khu vực ~24 triệu thùng tháng 9; dòng diesel Trung Đông chưa bằng một nửa năm trước; gasoil ICE −5% khi G7 công bố xả kho.",
+    "note": "Diesel Nga có thể quay lại Brazil, Thổ Nhĩ Kỳ.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News / Kpler, 10/10",
+      "u": "https://www.hellenicshippingnews.com/strategic-stock-release-resets-diesel/"
+     }
+    ]
+   },
+   {
+    "topic": "Tàu chờ ở vùng Vịnh/Hormuz",
+    "value": "134 tàu AIS đứng chờ (10/10, 21:20 UTC); PortWatch 4 lượt qua eo ngày 4/10 (trước khủng hoảng 85/ngày).",
+    "note": "Số PortWatch chỉ tính tàu bật AIS; UKMTO tuần đến 7/10 ghi 275 lượt/7 ngày.",
+    "src": [
+     {
+      "t": "straits.live (bản tin Hormuz), 10/10",
+      "u": "https://straits.live/briefs/2026-10-10"
+     }
+    ]
+   },
+   {
+    "topic": "Hàng Saudi chuyển sang Biển Đỏ (Windward)",
+    "value": "Xuất qua cảng Biển Đỏ 29,6 → 54,8 triệu tấn (4–5/2026 so cùng kỳ); hàng vùng Vịnh −41,2 triệu tấn; tàu hàng rời ghé NEOM 1 → 25 lượt (5–9/2026).",
+    "note": "Khi Hormuz mở, hàng rời ở NEOM sẽ giảm trước.",
+    "src": [
+     {
+      "t": "Hellenic Shipping News / Windward, 10/10",
+      "u": "https://www.hellenicshippingnews.com/war-diverted-traffic-is-reshaping-neoms-port-what-happens-if-hormuz-reopens/"
+     }
+    ]
+   },
+   {
+    "topic": "Kênh Panama",
+    "value": "Đi lại bình thường sau động đất 7,7 ngày 9/10 (tâm chấn nam Panama, cách ~200 km).",
+    "note": "ACP tăng lên 33 lượt/ngày từ 15/10. Nguồn: nội dung bài trong feed Splash (bài lẻ 403).",
+    "src": [
+     {
+      "t": "Splash247 (nội dung bài trong feed; bài lẻ 403), 10/10",
+      "u": "https://splash247.com/feed/"
+     }
+    ]
+   },
+   {
+    "topic": "Nhiên liệu tàu (10/10)",
+    "value": "VLSFO Singapore 889,5 USD/t (−2,0%), Fujairah 967,5 (−2,1%), Rotterdam 715; HSFO 380 Singapore 810 (cao nhất 5 năm).",
+    "note": "Chênh VLSFO–HSFO Singapore thu hẹp còn khoảng 80 USD/t.",
+    "src": [
+     {
+      "t": "Baltic Exchange qua build.py (yieldchaser/Shipping), 10/10",
+      "u": "https://github.com/yieldchaser/Shipping"
+     }
+    ]
+   }
+  ],
+  "regulation": [
+   {
+    "tag": "Tàu bóng tối – Hà Lan",
+    "title": "Hà Lan đề xuất luật cho phép giữ tàu treo cờ giả trong vùng đặc quyền kinh tế",
+    "text": "Tàu treo cờ giả trong EEZ Hà Lan có thể bị giữ và đưa về neo hoặc cảng để kiểm tra (thông cáo chính phủ 9/10). Đại sứ quán Nga dọa đáp trả tương xứng.",
+    "impact": "Thêm một nước Biển Bắc siết đội bóng tối chở dầu Nga; tăng rủi ro cho tàu không tuân thủ, có lợi tương đối cho tàu hợp lệ.",
+    "src": [
+     {
+      "t": "gCaptain (Bloomberg), 10/10",
+      "u": "https://gcaptain.com/dutch-propose-law-to-crack-down-on-russian-shadow-fleet/"
+     }
+    ]
+   },
+   {
+    "tag": "Trừng phạt – Nga",
+    "title": "Nga nới cấm xuất diesel 500.000 tấn; Đức, EU giữ trừng phạt",
+    "text": "Chính phủ Nga cho bán 500.000 tấn diesel ra nước ngoài từ 10/10 sau thỏa thuận Trump–Putin; Đức (10/10) nói giữ các quyết định trừng phạt và cùng đối tác châu Âu làm gói mới.",
+    "impact": "Mỹ và châu Âu lệch nhau: diesel Nga hợp pháp vào Mỹ theo GL 135 nhưng vẫn bị cấm vào EU, nên hàng sẽ đi tuyến Nga–Mỹ, Nga–Nam Mỹ, Nga–Thổ Nhĩ Kỳ.",
+    "src": [
+     {
+      "t": "Kyiv Independent, 10/10",
+      "u": "https://kyivindependent.com/russia-partially-lifts-ban-on-diesel-exports-after-trump-putin-deal/"
+     },
+     {
+      "t": "The Moscow Times, 10/10",
+      "u": "https://www.themoscowtimes.com/2026/10/10/germany-sticks-to-russia-sanctions-after-trump-diesel-announcement-a93940"
+     }
+    ]
+   }
+  ],
+  "vietnam": [
+   {
+    "tag": "PVT – NV Sunshine",
+    "title": "PVTrans, NVTrans phủ nhận tin VLGC NV Sunshine bị Iran tấn công",
+    "text": "Tối 9/10 IRGC (qua Tasnim) nói đã đánh NV Sunshine khi tàu đi tuyến phía nam Hormuz, gây cháy buồng máy. Ngày 10/10 NVTrans ra thông cáo: tàu không bị tấn công, không cháy, đang hoạt động an toàn và được theo dõi 24/24; PVTrans xác nhận sau khi liên lạc thuyền trưởng, thuyền viên và hàng an toàn. Cổ phiếu PVT đóng cửa 9/10 giảm 350 đồng còn 25.200 đồng. Đội NVTrans 19 tàu: 2 VLGC, 9 tàu LPG nhỏ, 3 tàu hóa chất, 5 tàu hàng rời.",
+    "impact": "Tàu an toàn theo chủ tàu, nhưng việc bị Iran nêu tên làm tăng rủi ro vận hành cho 2 VLGC ở vùng Vịnh. Không có tin BSR/Nghi Sơn mới trong 72 giờ.",
+    "src": [
+     {
+      "t": "Tin nhanh chứng khoán, 10/10",
+      "u": "https://www.tinnhanhchungkhoan.vn/pvtrans-pvt-phu-nhan-tau-nv-sunshine-bi-tan-cong-tai-khu-vuc-eo-bien-hormuz-post399190.html"
+     },
+     {
+      "t": "Tiền Phong, 10/10",
+      "u": "https://tienphong.vn/cong-ty-nhat-viet-thong-tin-ve-tau-nv-sunshine-post1884126.tpo"
+     },
+     {
+      "t": "Người Quan Sát, 10/10",
+      "u": "https://nguoiquansat.vn/ro-tin-tau-cho-dau-cua-viet-nam-bi-tan-cong-o-eo-bien-hormuz-doanh-nghiep-lap-tuc-len-tieng-321195.html"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "date": "2026-10-10",
   "dataAsOf": "2026-10-09",
   "headline": "Baltic tuần 41: Aframax châu Âu TD7 525.034 USD/ngày (+73% tuần), TD25 308.695, Aframax châu Á TD14 WS787 (+238); BDTI 7.964, cao nhất 5 năm. Tàu dầu sản phẩm chững: TC7 châu Á 68.233 (−6,6%), TC14 −43%. Giá tàu 15 tuổi tăng mạnh nhất trong tuần: MR +11%, Aframax +9,5%. Hormuz: VLCC GEM NO.2 trúng đạn khi neo ngoài khơi UAE, IRGC tuyên bố truy đuổi tàu ở khắp vùng Vịnh; Kpler: xuất dầu thô vùng Vịnh giảm khoảng 1/3. Mỹ cấp phép diesel Nga đến 4/2027; Nga–Ukraine bàn đình chiến năng lượng. Bão Isaias cấp 3, 71,5% dầu Vịnh Mexico dừng",

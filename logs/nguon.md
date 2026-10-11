@@ -1,8 +1,8 @@
-# Sổ nguồn (cập nhật 2026-10-10 lần 1)
+# Sổ nguồn (cập nhật 2026-10-11 lần 1)
 Tên | URL liệt kê mở được | Nhịp | Bài mới nhất đã thấy | Mở thành công gần nhất | Lỗi gần nhất | Nguồn thay thế
-Splash247 | https://splash247.com/feed/ ; /category/sector/tankers/feed/ ; /category/sector/dry-cargo/feed/ ; /category/sector/gas/feed/ | hằng ngày | 09/10 10:44 CMB.TECH; Splash Wrap 09/10 07:52 | 10/10 | bài lẻ HTTP 403 (10/10: Larine, ngũ cốc Biển Đen; curl và WebFetch) | thẻ description trong feed chuyên mục; Advanced/Clarksons cho giao dịch S&P
-Hellenic Shipping News | https://www.hellenicshippingnews.com/feed/ (thêm ?paged=2..7 để lấy ~140 bài) ; danh mục https://www.hellenicshippingnews.com/category/report-analysis/weekly-shipbrokers-reports/ (curl, có link PDF) | hằng ngày + báo cáo tuần | 09/10 21:00 (Affinity, Gibson, Advanced, Lion, Clarksons, Platts, Banchero) | 10/10 | không | gCaptain, MarEx
-gCaptain | https://gcaptain.com/feed/ (?paged=2..3) | hằng ngày | 09/10 20:34 Trump Strikes Diesel Deal With Putin | 10/10 | không | HSN, MarEx
+Splash247 | https://splash247.com/feed/ ; /category/sector/tankers/feed/ ; /category/sector/dry-cargo/feed/ ; /category/sector/gas/feed/ | hằng ngày | 10/10 06:16 Panama Canal unaffected by huge earthquake | 11/10 | bài lẻ HTTP 403 (11/10: Panama; curl và WebFetch) | nội dung content:encoded trong feed; Advanced/Clarksons cho giao dịch S&P
+Hellenic Shipping News | https://www.hellenicshippingnews.com/feed/ (cần curl -L, trang 1 trả 301; thêm ?paged=2..7) ; danh mục https://www.hellenicshippingnews.com/category/report-analysis/weekly-shipbrokers-reports/ (curl, có link PDF) | hằng ngày + báo cáo tuần (không đăng thứ Bảy, Chủ nhật) | 09/10 21:00 | 11/10 | không | gCaptain, MarEx
+gCaptain | https://gcaptain.com/feed/ (?paged=2..3) | hằng ngày | 10/10 19:55 Dutch Propose Law To Crack Down On Russian Shadow Fleet | 11/10 | không | HSN, MarEx
 OilPrice.com | https://oilprice.com/rss/main (curl); bài lẻ đọc bằng WebFetch (curl chỉ ra thanh giá) | hằng ngày | 09/10 Isaias 71%; Asian refiners ditch US oil; diesel crisis | 10/10 | không | —
 Trading Economics BDI | https://tradingeconomics.com/commodity/baltic ; /brent-crude-oil | ngày làm việc | 09/10: 2.917 (khớp); Brent 104,43; bài tóm tắt TE có lúc lệch số chốt (3.002) | 10/10 | không | build.py
 Baltic Exchange tuần theo tuyến | Affinity Tanker Weekly PDF trên HSN (bảng Baltic TCE đủ tuyến tanker, có ngay tối thứ Sáu); The Edge: tìm "Baltic Exchange shipping updates: <ngày>" (đăng Chủ nhật) | thứ Sáu | tuần 41 (09/10) tanker qua Affinity; BLPG1/3 tuần 41 chưa tìm được | 10/10 (Affinity) | balticexchange.com: trang thử thách/trống (lỗi lặp lại, bỏ qua) | Gibson, Advanced (T/C hàng rời)
@@ -11,7 +11,7 @@ Fearnleys Weekly | HSN "fearnleys-week-NN-2026" → PDF wp-content/uploads/2026/
 ICIS cước tàu hóa chất | HSN đăng lại (tiêu đề "...liquid chem tanker rates..." hoặc "liquid tanker rates ex-US Gulf") | thứ Sáu (HSN thứ Hai) | 28/09 (HSN ?p=1149665, chỉ tuyến Mỹ) | 10/10 (kiểm tra, không có bản mới) | icis.com trang trống/Incapsula (04/10) | HSN
 NOAA ENSO | https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml | thứ Năm thứ 2 của tháng (~20:00 giờ VN, sau giờ chạy sáng) | 08/10 (El Niño Advisory; kỳ tới 12/11) | 09/10 | không | —
 Lloyd's List Red Sea Brief | https://www.lloydslistintelligence.com/resources/blog/red-sea-brief-<ngày> | hằng tuần (thứ Năm) | 01/10 | 04/10 | không | —
-Tin PVT | https://cafef.vn/pvtrans.html (curl) | hằng ngày | 27/09 | 10/10 | pvtrans.com HTTP 503 (WebFetch), curl lỗi chứng chỉ SSL (09/10, bỏ qua 10/10) | vietstock, mekongasean
+Tin PVT | https://cafef.vn/pvtrans.html (curl); WebSearch tiếng Việt theo tên tàu (NV Sunshine...) ra TNCK, Tiền Phong, Người Quan Sát | hằng ngày | 10/10 PVTrans phủ nhận NV Sunshine bị tấn công (TNCK 17:35) | 11/10 | pvtrans.com 503/SSL (bỏ qua); nongnghiepmoitruong.vn 403 (11/10) | tinnhanhchungkhoan.vn, tienphong.vn, nguoiquansat.vn
 Seatrade, AGBI, zamin.uz, thehill.com | | | | | 403 | bỏ qua, dùng nguồn khác
 globalsecurity.org | | | | | 402 | CBS, EA WorldView
 marinelink.com | | | | | 502 (04/10) | gCaptain
@@ -46,3 +46,9 @@ Signal Group Weekly Market Monitor (dòng than, hàng) | HSN đăng lại | hằ
 FreightWaves | bài lẻ freightwaves.com/?p=<id> mở được | hằng ngày | 28/09 phí cảng USTR | 09/10 | không | —
 GMS (phá dỡ) | HSN "gms-week-NN-..." + PDF Ship-recycling-market-insight-Week-NN-....pdf | thứ Sáu | tuần 41 (09/10) | 10/10 | không | Lion
 Banchero Costa (phân tích dòng hàng) | HSN đăng lại (ví dụ "Tanker Market: ...") | hằng tuần | 10/10 dầu thô 9 tháng | 10/10 | không | —
+straits.live (bản tin Hormuz hằng ngày: tàu chờ, PortWatch, Brent, lời IRGC) | https://straits.live/briefs/YYYY-MM-DD | hằng ngày | 10/10 | 11/10 | không | Euronews, The National
+Euronews | bài lẻ euronews.com/YYYY/MM/DD/<slug> mở được (WebFetch) | hằng ngày | 09/10 IRGC strikes tanker | 11/10 | không | —
+The New Arab, Yeni Şafak (Anadolu) | bài lẻ mở được (WebFetch); dùng thay Tasnim/Tehran Times | hằng ngày | 09/10 NV Sunshine | 11/10 | không | —
+tasnimnews.ir, tehrantimes.com | | | | | HTTP 503 (11/10) | Yeni Şafak/Anadolu, New Arab
+MagicPort (hồ sơ tàu, AIS) | https://magicport.ai/vessels/gas-carrier/<tên>-mmsi-<mmsi> | theo nhu cầu | NV Sunshine (đích Ras Laffan) | 11/10 | không | —
+Fox Weather (bão Đại Tây Dương) | bài lẻ foxweather.com/weather-news/<slug> mở được | theo sự kiện | 09/10 Isaias vào bờ | 11/10 | mypanhandle.com, newsnationnow.com 403 (11/10) | —
